@@ -1,30 +1,39 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="wrapper">
+    <Navbar :navLinks="navLinks"/>
+    <router-view/>
+    <Footer/>
+  </div>
 </template>
 
+<script>
+import Navbar from './components/v-navbar'
+import Footer from './components/v-footer'
+export default {
+  name: 'App',
+  components: { Navbar, Footer },
+  setup() {
+    const navLinks = [
+      {
+        name: "Главная",
+        path: "/",
+      },
+      {
+        name: "О компании",
+        path: "/about",
+      },
+      {
+        name: "Каталог услуг",
+        path: "/catalog",
+      },
+    ];
+    return { navLinks };
+  },
+}
+</script>
+
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import './assets/styles/style.scss';
 </style>
+  

@@ -1,0 +1,48 @@
+@import "init_state/vars.scss";
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 5px 30px;
+    border-radius: $navBorderRadius;
+    padding: 16px;
+    background: $navBg;
+    position: fixed;
+
+    .link {
+        text-decoration: none;
+        margin: 0 20px;
+        font-family: $linkFont;
+        color: $linkColor;
+    }
+
+    button {
+        border-radius: $btnBorderRadius;
+        background: $btnBg;
+        color: $btnTextColor;
+        font-family: $linkFont;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        padding: 10px 20px;
+        border: $btnBorderWidth solid $btnBorderColor;
+        cursor: pointer;
+        outline: none;
+        font-size: 18px;
+
+        p {
+            margin: 0 10px;
+        }
+
+        img {
+            width: 25px;
+            height: 25px;
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(46deg) brightness(104%) contrast(104%);
+        }
+    }
+}
+
+

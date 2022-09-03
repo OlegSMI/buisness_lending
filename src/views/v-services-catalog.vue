@@ -1,0 +1,94 @@
+<template>
+  <div class="home">
+    <div class="content">
+      Услуги
+      <br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+      f<br>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "MyHome",
+};
+</script>
