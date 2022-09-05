@@ -11,7 +11,10 @@ import Navbar from './components/v-navbar'
 import Footer from './components/v-footer'
 export default {
   name: 'App',
-  components: { Navbar, Footer },
+  components: { 
+    Navbar,
+    Footer 
+  },
   setup() {
     const navLinks = [
       {

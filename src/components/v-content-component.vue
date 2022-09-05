@@ -29,6 +29,10 @@
           <div class="text__block">Услуга 5</div>
           <div class="sub__text__block">Читать<fa :icon="['fas', 'arrow-right']"/></div>
         </div>
+        <div class="content__block fife__block">
+          <div class="text__block">Услуга 6</div>
+          <div class="sub__text__block">Читать<fa :icon="['fas', 'arrow-right']"/></div>
+        </div>
       </div>
     </div>
     

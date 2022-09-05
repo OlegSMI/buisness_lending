@@ -22,3 +22,8 @@ npm run serve
 ```
 
 "# buisness_lending" 
+
+# Previews 
+
+
+p.s. Леня лузер

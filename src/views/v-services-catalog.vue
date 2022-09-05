@@ -1,88 +1,10 @@
 <template>
   <div class="home">
-    <div class="content">
-      Услуги
-      <br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
-      f<br>
+    <div class="block__color__one">
+      
+    </div>
+    <div class="block__color__two">
+
     </div>
   </div>
 </template>

@@ -5,17 +5,24 @@
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    margin: 5px 30px;
+    margin: 5px auto;
+    right: 0;
+    left: 0;
     border-radius: $navBorderRadius;
     padding: 16px;
     background: $navBg;
     position: fixed;
+    z-index: 50;
 
     .link {
         text-decoration: none;
         margin: 0 20px;
         font-family: $linkFont;
         color: $linkColor;
+    }
+
+    .menu__img {
+        display: none;
     }
 
     button {
@@ -36,13 +43,46 @@
         p {
             margin: 0 10px;
         }
-
-        img {
-            width: 25px;
-            height: 25px;
-            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(46deg) brightness(104%) contrast(104%);
-        }
     }
+
+    @media (max-width: 670px) {
+        .link {
+            display: none;
+        }
+
+        .menu__img {
+            display: block;
+            margin: 0 10px;
+            font-size: 20px;
+            color: $btnBg;
+        }
+
+        button {
+            padding: 0 10px;
+            border-radius: 50%;
+            font-size: 25px;
+            color: $btnBg;
+            background-color: white;
+
+            p{
+                display: none;
+                margin: 0 0;
+            }
+
+            &:hover {
+                color:red;
+            }
+
+        }
+        
+    }
+}
+
+@media (max-width: 670px) {
+    .nav {
+        height: 50px;
+    }
+
 }
 
 
